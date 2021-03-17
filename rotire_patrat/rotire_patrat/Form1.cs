@@ -53,7 +53,7 @@ namespace PatratRotit
             Bitmap bmp;
             bmp = new Bitmap(pB.Width, pB.Height);
             grp = Graphics.FromImage(bmp);
-            PointF[] t = new PointF[4];
+            PointF[] t = new PointF[4]; 
             t[0].X = float.Parse(xa.Text);
             t[0].Y = float.Parse(ya.Text);
             t[1].X = float.Parse(xb.Text);
