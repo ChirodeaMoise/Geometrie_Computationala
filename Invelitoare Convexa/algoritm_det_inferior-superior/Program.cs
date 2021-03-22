@@ -4,7 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Invelitoare_convexa
+
+namespace algoritm_det_inferior_superior
 {
     static class Program
     {
@@ -20,3 +21,4 @@ namespace Invelitoare_convexa
         }
     }
 }
+

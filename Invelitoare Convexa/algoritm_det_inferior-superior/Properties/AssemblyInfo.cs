@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Invelitoare convexa")]
+[assembly: AssemblyTitle("algoritm_det_inferior-superior")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Invelitoare convexa")]
+[assembly: AssemblyProduct("algoritm_det_inferior-superior")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b88c5d5c-3f36-466c-a8cf-0b2ea2be6d4e")]
+[assembly: Guid("29ad4065-6e32-406a-b3e8-e0c79cebadac")]
 
 // Version information for an assembly consists of the following four values:
 //

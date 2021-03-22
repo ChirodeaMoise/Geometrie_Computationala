@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B88C5D5C-3F36-466C-A8CF-0B2EA2BE6D4E}</ProjectGuid>
+    <ProjectGuid>{29AD4065-6E32-406A-B3E8-E0C79CEBADAC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Invelitoare_convexa</RootNamespace>
-    <AssemblyName>Invelitoare convexa</AssemblyName>
+    <RootNamespace>algoritm_det_inferior_superior</RootNamespace>
+    <AssemblyName>algoritm_det_inferior-superior</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
