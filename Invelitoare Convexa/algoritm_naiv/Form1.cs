@@ -31,7 +31,13 @@ namespace algoritm_naiv
 
         private List<Point> pointList = new List<Point>();
 
+        private void stergeBT_Click(object sender, EventArgs e)
+        {
+            bitmap = new Bitmap(this.pictureBox1.Width,this. pictureBox1.Height, PixelFormat.Format32bppArgb);
+            graphics = Graphics.FromImage(bitmap);
 
+            this.pictureBox1.Image = bitmap;
+        }
         private void deseneazaBT_Click(object sender, EventArgs e)
         {
 
@@ -86,13 +92,7 @@ namespace algoritm_naiv
             this.pictureBox1.Image = bitmap;
 
         }
-        private void stergeBT_Click(object sender, EventArgs e)
-        {
-            bitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            graphics = Graphics.FromImage(bitmap);
-
-            pictureBox1.Image = bitmap;
-        }
+      
 
         public static List<Point> GetConvexHull(List<Point> points)
         {
