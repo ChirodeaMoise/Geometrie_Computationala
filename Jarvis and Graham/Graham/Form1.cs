@@ -28,16 +28,18 @@ namespace Graham
             grp = Graphics.FromImage(bmp);
             points = new List<Point>();
 
-          
-           /* points.Add(new Point(1, 11));
-            points.Add(new Point(2, 7));
-            points.Add(new Point(3, 8));
-            points.Add(new Point(4, 10));
-            points.Add(new Point(5, 7));
-            points.Add(new Point(7, 11));
-            points.Add(new Point(6, 7));*/
 
-            
+           /* points.Add(new Point(20, 100));
+             points.Add(new Point(20, 90));
+             points.Add(new Point(30, 100));
+             points.Add(new Point(40, 90));
+             points.Add(new Point(50, 70));
+             points.Add(new Point(60, 70));
+             points.Add(new Point(40, 90));
+            points.Add(new Point(30, 60));
+            points.Add(new Point(70, 120));
+            points.Add(new Point(70, 110));*/
+
             Random rnd = new Random();
              int n = 15;
             for (int i = 0; i < n; i++)
@@ -46,7 +48,8 @@ namespace Graham
                 do
                 {
                     toAdd = new Point(rnd.Next() % (pB.Width / 30), rnd.Next() % (pB.Height / 30));
-                  
+                    
+
                 } while (points.Contains(toAdd));
                 points.Add(toAdd);
              }
@@ -74,7 +77,9 @@ namespace Graham
 
 
             int nrPuncte = 2;
+#pragma warning disable CS0219 // The variable 'steps' is assigned but its value is never used
             int steps = 0;
+#pragma warning restore CS0219 // The variable 'steps' is assigned but its value is never used
             for (int i = 3; i < points.Length; i++)
             {
                 while (nrPuncte > 1 && Orientare(points[nrPuncte - 1], points[nrPuncte], points[i]) >= 0)
